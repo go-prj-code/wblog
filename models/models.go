@@ -133,7 +133,7 @@ var DB *gorm.DB
 func InitDB() (*gorm.DB, error) {
 
 	//db, err := gorm.Open("sqlite3", system.GetConfiguration().DSN)
-	db, err := gorm.Open("mysql", "root:123456@/wblog?charset=utf8&parseTime=True&loc=Asia/Shanghai")
+	db, err := gorm.Open("mysql", "root:123456@localhost:3306/wblog?charset=utf8&parseTime=True&loc=Asia/Shanghai")
 	if err == nil {
 		DB = db
 		db.LogMode(true)
