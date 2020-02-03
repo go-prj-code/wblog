@@ -261,12 +261,6 @@
 			"revisionTime": "2015-07-21T03:41:13Z"
 		},
 		{
-			"checksumSHA1": "MIslMYAzyWPsn5xbMfaZupVhHy0=",
-			"path": "github.com/russross/blackfriday",
-			"revision": "067529f716f4c3f5e37c8c95ddd59df1007290ae",
-			"revisionTime": "2017-06-10T17:02:32Z"
-		},
-		{
 			"checksumSHA1": "nsjuZUrEFljQkA/cdWpf/lEmC/w=",
 			"path": "github.com/snluu/uuid",
 			"revision": "1dd34a9ad6c0e8dec93107f9c7425ea5713f78e1",
